@@ -1,7 +1,9 @@
+@use '../styles/variables' as v;
+
 header {
     padding: 1rem;
     margin-bottom: 4rem;
-    background-color: #e7e7e7;
+    background-color: v.$novena-color;
     height: 4rem;
   }
   
@@ -27,7 +29,7 @@ header {
   
   .li a {
     font-size: 20px;
-    color: grey;
+    color: v.$decima-color;
   }
   
   .li a:hover {

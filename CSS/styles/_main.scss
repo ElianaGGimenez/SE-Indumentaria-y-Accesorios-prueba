@@ -1,3 +1,5 @@
+@use '../styles/variables' as v;
+
 main {
     display: flex;
     flex-direction: column;
@@ -11,17 +13,17 @@ main {
   
   .titulo {
     font-size: 40px;
-    color: rgb(0, 26, 255);
+    color: v.$sexta-color;
   }
   
   .titulo2 {
     font-size: 35px;
-    color: blueviolet;
+    color: v.$septima-color;
   }
   
   .text {
     font-size: 20px;
-    color: black;
+    color: v.$octava-color;
     font-weight: 600;
   }
 
