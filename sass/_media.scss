@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-items: start;
+        align-items: start;
+        gap: 1rem;
+    }
+    .img{
+        width: 2rem;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: none;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 2rem;
+        height: fit-content;
+        background-color: #e7e7e7;
+    } }   

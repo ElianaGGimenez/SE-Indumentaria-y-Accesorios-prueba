@@ -1,0 +1,45 @@
+@use '../sass/variables' as v;
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    align-content: center;
+    padding-inline: 10%;
+    margin-bottom: 5rem;
+  }
+  
+  .titulo {
+    font-size: 40px;
+    color: v.$sexta-color;
+  }
+  
+  .titulo2 {
+    font-size: 35px;
+    color: v.$septima-color;
+  }
+  
+  .text {
+    font-size: 20px;
+    color: v.$octava-color;
+    font-weight: 600;
+  }
+
+  .img2 {
+    width: 50%;
+    animation: animacion 2s infinite;
+  }
+  
+  @keyframes animacion {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

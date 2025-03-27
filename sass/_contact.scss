@@ -1,0 +1,28 @@
+@use '../sass/variables' as v;
+
+.mb-3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px v.$onceava-color;
+    border-radius: 4px;
+  }
+
+  @media (max-width: 620px) {
+    .imgcont {
+      width: 100%;
+    }
+  }	
+
+  @media (max-width: 780px) {
+    .ubicacion2 {
+      width: 100%;
+    }
+  }

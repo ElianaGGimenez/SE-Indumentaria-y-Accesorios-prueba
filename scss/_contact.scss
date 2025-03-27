@@ -1,0 +1,16 @@
+@use '../scss/variables' as v;
+
+.mb-3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px v.$onceava-color;
+    border-radius: 4px;
+  }

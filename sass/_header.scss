@@ -1,0 +1,39 @@
+@use '../sass/variables' as v;
+
+header {
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background-color: v.$novena-color;
+    height: 4rem;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  nav img {
+    width: 2rem;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .img {
+    width: 2rem;
+    position: absolute;
+  }
+  
+  .li a {
+    font-size: 20px;
+    color: v.$decima-color;
+  }
+  
+  .li a:hover {
+    scale: 1.1;
+    display: flex;
+    transition: 100ms;
+  }
